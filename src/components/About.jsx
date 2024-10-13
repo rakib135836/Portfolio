@@ -22,12 +22,10 @@ const About = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Hello, I am Sagor, a web developer. My proficiency in developing
-            personalized websites with JavaScript guarantees that your distinct
-            requirements are fulfilled. My goal is to create flawless websites
-            that match your ideal user interface design, pixel by pixel. I am
-            committed to making sure you are happy, so I will make as many
-            changes as necessary to get the results you want.
+         Hello, I’m Md. Rakibul Islam, but you can call me Rakib. As a web developer,
+          I specialize in creating tailored web applications using the MERN stack.
+          My expertise in JavaScript ensures that I meet your unique needs
+           and deliver high-quality solutions that align with your vision
           </motion.p>
 
           <motion.p
@@ -71,7 +69,7 @@ const About = () => {
                 whileHover={{ scale: 1.03 }}
               >
                 <p className="font-bold">Higher Secondary Certificate (HSC)</p>
-                <p>Govt. Bangla College(GBC)</p>
+                <p>Govt. Science College</p>
               </motion.div>
             </div>
           </motion.div>

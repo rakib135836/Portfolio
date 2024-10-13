@@ -1,6 +1,10 @@
 import { useState, useRef } from 'react';
 import { FaGithub, FaExternalLinkAlt, FaTimes, FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import optiAsset from '../assets/optiasset.png';
+import roomify from '../assets/roomify.png';
+import bus from '../assets/Screenshot (223).png';
+import retro from '../assets/retro.png';
 
 
 const Portfolio = () => {
@@ -10,41 +14,41 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-    //   src: campusHub,
-      name: 'CampusHub',
-      description: 'A comprehensive platform featuring student login and registration, meal management for admins, and a review system, all built with a modern tech stack including MongoDB, Express.js, React.js, and Node.js. Secure payments are facilitated through Stripe integration.',
-      githubLink: '',
-      liveLink: '',
+      src: optiAsset,
+      name: 'Opti Asset',
+      description: 'A subscription based webApplication that helps hr to asset their assets and employees can track and mange their asset .it also have stripe as payment system ',
+      githubLink: 'https://github.com/rakib135836/opti-asset',
+      liveLink: 'https://opti-asset.web.app/',
       techs: ['React', 'JavaScript','MongoDB','Express.js'],
-      features: ['Student Login and Registration', 'Meal Management for Admins','Review and Rating System','Stripe Integration for Payments'],
+      features: ['Hr and employee Login and Registration', 'Asset and employee management  for Hrs','add or remove employee and assets  System','Stripe Integration for Payments'],
     },
     {
       id: 2,
-    //   src: volunteer,
-      name: 'Happy Volunteer',
-      description: 'This project is a volunteer management website designed to streamline volunteer activities using modern web technologies. It facilitates user authentication, activity tracking, and communication between volunteers and organizers. The site is built with a responsive design to ensure accessibility across devices',
-      githubLink: '',
-      liveLink: '',
+      src: roomify,
+      name: 'Roomify',
+      description: 'Its a Hotel booking website offer user choose there best hotel from anywhere .offering you Admin dashboard to track everything (on process). The site is built with a responsive design to ensure accessibility across devices',
+      githubLink: 'https://github.com/rakib135836/roomify',
+      liveLink: 'https://roomify-1529f.web.app/',
       techs: ['React', 'JavaScript','MongoDB','Express.js','Daisy UI'],
       features: ['Responsive design', 'Document head management','Data management and storage facilitated','User authentication functionalities','Comprehensive volunteer management capabilities'],
     },
     {
       id: 3,
-    //   src: art,
-      name: 'CruftyCreation',
-      description: 'Art And Cruft is a web application designed to showcase and manage art and craft items. It provides a centralized platform for users to explore various craft collections and for creators to showcase their own crafts.',
-      githubLink: '',
-      liveLink: '',
+      src: bus,
+      name: 'Bus Ticket',
+      description: 'if you finding a bus ticketing website you are in the right place .its offers you all the features you are finding till now .dashboard and payment system on process .and still i am implementing some interesting features.',
+      githubLink: 'https://github.com/rakib135836/ph-assignment-5',
+      liveLink: 'https://rakib135836.github.io/ph-assignment-5/ph-assignment-5.html',
       techs: ['React', 'JavaScript','MongoDB','Express.js','Daisy UI','Tailwind CSS'],
       features: ['Responsive design', 'User Authentication','Private Routes'],
     },
     {
       id: 4,
-    //   src: real,
-      name: 'RealResort',
-      description: 'The Real Estate Portal is a comprehensive web application designed for buying, selling, and renting real estate properties. It provides a seamless user experience with robust features for property seekers and owners alike.',
-      githubLink: '',
-      liveLink: '',
+      src: retro,
+      name: 'Retro',
+      description: 'A blog website .i am still coding i will add Admin dashboard and user Dashboard to enjoy all access.',
+      githubLink: 'https://github.com/Programming-Hero-Web-Course4/b9a6-retro-forum-rakib135836',
+      liveLink: 'https://65e7590676a2243da08fd576--starlit-stardust-f322e2.netlify.app/ph-assignment-6',
       techs: ['React', 'JavaScript','Daisy UI','Tailwind CSS'],
       features: ['Responsive design', 'User Authentication','Private Routes'],
     },

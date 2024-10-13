@@ -1,6 +1,7 @@
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import rakib from "../assets/WhatsApp_Image_2022-04-22_at_1.01.11_PM__2_-removebg-preview.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import {
@@ -35,7 +36,7 @@ const Home = () => {
                                 1000,
                                 "React Developer",
                                 1000,
-                                "MERN-stack",
+                                "MERN-stack developer",
                                 1000,
                                 "Freelancer",
                                 1000,
@@ -107,12 +108,12 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center mt-8 lg:mt-0">
+                    <div className="flex justify-center mt-8 lg:mt-0 shadow-[#a855f7]">
                         <img
-                            src=''
+                            src={rakib}
                             // https://i.ibb.co.com/6B8jVdb/1713553104622.jpg
                             alt="my profile"
-                            className="rounded-2xl w-5/6 sm:w-2/3 lg:w-300"
+                            className="rounded-2xl w-5/6 sm:w-2/3 lg:w-300 "
                         />
                     </div>
                 </div>

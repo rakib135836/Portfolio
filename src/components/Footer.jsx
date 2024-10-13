@@ -62,7 +62,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="block text-center text-sm text-gray-400">
-          Copyright © 2023. All rights reserved.
+          Copyright © 2024. All rights reserved.
         </span>
       </div>
     </footer>
